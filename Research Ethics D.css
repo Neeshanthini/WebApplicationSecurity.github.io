@@ -1,0 +1,84 @@
+body{
+  background-image: url("gif 7.gif");
+  background-size: contain;
+}
+margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.image {
+  display:block;
+  width:60%;
+  top: 55px;
+  left: 400px;
+  height:550px;
+  position: absolute;
+}
+
+
+nav{
+   width:700px;
+    float:left;
+    padding:10px;
+    text-align: left;
+    color: #F69614  ;
+}
+
+header{
+     
+     color:white;
+     text-align:center;
+     padding:7px;
+     font-size: 60px;
+}
+
+.main p {
+  margin: 4px;
+  font-size: 120%;
+  padding:10px;
+  background-color: black;
+  color: #40E0D0;
+
+}
+  
+
+.main div {
+  width: 600px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+.Previous{
+    font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 20px;
+    width: 10%;
+    bottom: -1320px;
+    left: 20px;
+    position: absolute;
+
+  }
+
+.Next{
+   font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 20px;
+    position: absolute;
+    width: 7%;
+    bottom: -1320px;
+    left: 170px;
+}

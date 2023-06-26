@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <link rel="icon" type="image/x-icon" href="tab logo.jpg">
+<style>
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-image: url("gif 7.gif");
+  background-size: contain;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.browser {
+  background: blueviolet;
+}
+
+body, html {
+  height: 80%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("gif 7.gif");
+  background-size: contain;
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("bg 5.jpeg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid #ddd;   
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 30px;
+}
+
+td,.browser > h2 {
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  color: black;
+  margin: 4px;
+  font-size: 50%;
+  background-color:steelblue;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;  
+}
+th{
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  padding: 8px;
+  color:purple;
+  background-color: lightblue;
+}
+
+tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+.Previous{
+    font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 20px;
+    width: 10%;
+    bottom: -1430px;
+    left: 20px;
+    position: absolute;
+
+  }
+
+.Next{
+   font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 20px;
+    position: absolute;
+    width: 7%;
+    bottom: -1430px;
+    left: 170px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<article class="all-browsers">
+  <h1>Web App Security Architecture</h1>
+<img src="image1.jpg" width="1340" height="300">
+
+<table>
+
+   <tr>
+   <th><h2>Network</h2></th>
+   <th><h2>Function</h2></th>
+ </tr>
+
+    <tr>
+   <td><h2>External Network</h2></td>
+   <td><h2>Authenticating users</br>
+   Examples : Google, Mozilla Fireworks, Opera and etc</h2></td>
+ </tr>
+  
+    <tr>
+   <td><h2>Firewall</h2></td>
+   <ul>
+    <td><h2>
+      <li>Protecting sensitive data</li></br>
+      <li>Preventing session hijacking and cookies replay attack</li>
+    </h2></td></li>
+  </ul>
+ </tr>
+
+    <tr>
+   <td><h2>Load Balancer</h2></td>
+   <td><h2>Automatically detecting server problems and redirecting client traffic to available servers</h2></td>
+ </tr>
+
+   <tr>
+   <td><h2>Web Server</h2></td>
+   <td><h2>
+     <li>Providing secure configuration</li></br>
+     <li>Authorizing users</li></br>
+     <li>Authorizing users (Examples:Check that the email address belongs to a valid domain name)</li></br>
+   </h2></td>
+ </tr>
+
+    <tr>
+   <td><h2>Application Server</h2></td>
+   <td><h2>
+     <li>Auditing - logging activity and transaction</li></br>
+     <li>Authenticating and authorizing upstream identities</li></br>
+   </h2></td>
+ </tr>
+
+  <tr>
+   <td><h2>Database Cluster(DB Cluster)</h2></td>
+   <td><h2>
+    <li>Manage the volume of data</li>
+    <li>Focuses on optimizing data storage and retrieval by grouping related data together</li>
+  </h2></td>
+ </tr>
+
+    <tr>
+   <td><h2>Database Server</h2></td>
+   <td><h2>Encrypting or hashing sensitive data</h2></td>
+ </tr>
+</table>
+
+<button class="Previous"><a href="C:\Users\ASUS\Desktop\Web & Application\wasT.html">Previous</a></button>
+<button class="Next"><a href="C:\Users\ASUS\Desktop\Web & Application\was J.html">Next</a></button> 
+</body>
+</html>
+
